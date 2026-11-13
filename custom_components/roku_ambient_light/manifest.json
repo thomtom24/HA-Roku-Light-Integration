@@ -1,0 +1,11 @@
+{
+  "domain": "roku_ambient_light",
+  "name": "Roku Ambient Light",
+  "version": "1.2.0",
+  "documentation": "https://www.home-assistant.io/integrations/roku/",
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "requirements": [
+    "Pillow>=10.0.0"
+  ]
+}
