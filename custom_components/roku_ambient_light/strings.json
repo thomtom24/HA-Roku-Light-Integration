@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Link Roku to a light",
+        "description": "Enter the Roku IP address and choose a colour-capable light.",
+        "data": {
+          "host": "Roku IP address",
+          "light_entity": "Light"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Ambient lighting settings",
+        "data": {
+          "light_entity": "Light",
+          "brightness": "Brightness (%)",
+          "transition": "Transition (seconds)",
+          "idle_action": "When Roku returns home",
+          "pause_white": "Set light to white while Roku playback is paused",
+          "pause_media_player": "Roku media player (optional; recommended for pause detection)"
+        }
+      }
+    }
+  }
+}
